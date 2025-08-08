@@ -15,7 +15,7 @@ const InputField = ({ label, name, type, value, onChange, required }) => (
       required={required}
       className="w-full px-4 py-3 border-2 rounded-lg focus:ring-2 focus:ring-yellow-400 outline-none peer transform transition-all ease-in-out duration-200 hover:scale-105"
     />
-    <label className="absolute left-4 top-2 text-gray-500 text-sm transition-all peer-placeholder-shown:top-6 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-sm peer-focus:text-yellow-500">
+    <label className="absolute left-4 text-gray-500 text-sm transition-all peer-placeholder-shown:top-6 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-0 peer-focus:text-sm peer-focus:text-violet-500">
       {label}
     </label>
   </div>

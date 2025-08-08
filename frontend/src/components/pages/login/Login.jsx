@@ -86,15 +86,15 @@ const Login = () => {
                 name="email"
                 value={inp.email}
                 onChange={handleInput}
-                placeholder="  "
+                placeholder="Enter e-mail"
                 required
-                className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none peer"
+                className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none peer"
               />
-              <label
-                className="absolute left-4 top-2 text-gray-500 text-sm transition-all peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-sm peer-focus:text-blue-500"
+              {/* <label
+                className="absolute left-4 top-0 text-gray-500 text-sm transition-all peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-0 peer-focus:text-sm peer-focus:text-blue-500"
               >
                 Email Address
-              </label>
+              </label> */}
             </div>
             <div className="relative">
               <input
@@ -102,15 +102,15 @@ const Login = () => {
                 name="password"
                 value={inp.password}
                 onChange={handleInput}
-                placeholder=" "
+                placeholder="Password"
                 required
                 className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none peer"
               />
-              <label
-                className="absolute left-4 top-2 text-gray-500 text-sm transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-sm peer-focus:text-blue-500"
+              {/* <label
+                className="absolute left-4 top-0 text-gray-500 text-sm transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-0 peer-focus:text-sm peer-focus:text-blue-500"
               >
                 Password
-              </label>
+              </label> */}
             </div>
             <div className="text-right">
               <Link
